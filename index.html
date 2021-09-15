@@ -9,15 +9,29 @@
     <title>JS_Basic</title>
 </head>
 <body>
-<!--
+
+    <!-- Q.1 Write a single line comment which says, comments can make code readable -->
+<!--  
+   <button onclick="alert('comments can make code readable');">Click Me</button>
+    <script>
+    // console.log('comments can make code readable')
+    </script> 
+    -->
+
+
+
+    <!-- Q.2 Write another single comment which says, Welcome to JavaScript -->
+<!--  
    <button onclick="alert('Welcome to JavaScript!');">Click Me</button>
     <script>
     // console.log('Welcome to JavaScript')
     </script> 
+  -->
 
-    -->
 
-    <!--
+
+    <!-- Q.3  Write a multiline comment which says, comments can make code readable, easy to reuse and informative -->
+  <!--
     <button onclick="alert('comments can make code readable, easy to reuse and informative');">Click Me</button>
     <script>
     /* console.log('comments can make code readable, easy to reuse and informative')
@@ -25,11 +39,15 @@
     </script> 
     -->
 
+
+
+    
+     <!-- Q.4 Create a variable.js file and declare variables and assign string, boolean, undefined and null data types-->
   <!--  
 	<script>
-
+    // assigned a string value
 		var msg; 
-		msg = "Hello JavaScript!"; // assigned a string value
+		msg = "Hello JavaScript!"; 
 		alert(msg); // access a variable
 
 		//number
@@ -47,45 +65,66 @@
         var value;
         value = null;
         alert(value);
-    
-        function GFG(){
-        //'use strict' verifies that no undeclared 
-        // variable is present in our code
-        'use strict'; 
-        x = "WelcomeToJS";
-           }
-  
-        GFG(); //accessing the above function
 
       </script>
 -->
 
+
+
+
+     <!-- Q.5 Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data 
+      type of each variable --> 
+<!--
+<Script>
+
+let value1 = 1;
+a = typeof("Aman");
+console.log(a)
+
+let value2 = 2;
+b = typeof(1);
+console.log(b)
+
+let value3 = 3;
+c = typeof(false);
+console.log(c)
+
+let value4 = 4;
+d = typeof(3.2);
+console.log(d)
+
+let value5 = 5;
+e = typeof(null);
+console.log(e)
+
+</Script>
+-->
+
+
+
+    <!-- Q.6 Declare four variables without assigning values -->
 <!--
 <script>
 
-  //datatypes
-let js = 'JavaScript' 
-let py = 'Python' 
-console.log(js == py) 
-
-let lightOn = true 
-let lightOff = false 
-console.log(lightOn == lightOff) // false
-
-let nums = [1, 2, 3] 
-let numbers = [1, 2, 3] 
-console.log(nums == numbers) // false
-
-var x = 5;
-var y = 6;
-var z = x + y;
-var z = x * y;
-var z = x - y;
-var z = x / y;
-
-</script>
+  // Declaring different variables without value
+  
+  var one = "";
+  var two = "";
+  var add = one + two;
+  var minus = one - two;
+  var multiply = one * two;
+  var divide = one/two;
+    
+    console.log(one + " + " + two + " = " + add);
+    console.log(one + " - " + two + " = " + minus);
+    console.log(one + " * " + two + " = " + multiply);
+    console.log(one + " / " + two + " = " + divide);
+  
+  </script>
 -->
 
+
+    <!--Q.7 Declare four variables with assigned values -->
 <!--
 <script>
 
@@ -106,6 +145,10 @@ var divide = one/two;
 </script>
 -->
 
+
+
+
+<!--Q.8 variables to store your first name, last name, marital status, country and age in multiple lines-->
 <!--
 <Script>
 var firstName = 'Aayush' // first name of a person 
@@ -120,10 +163,34 @@ console.log(lastName)
 console.log(country)
 console.log(age)
 console.log(isMarried)
+</Script>
+-->
 
-//variables to store your first name, last name, marital status, country and age in line
+
+
+   <!--Q.9 Declare variables to store your first name, last name, marital status, country and age in a single line-->
+<!--
+<Script>
+var firstName = 'Aayush' // first name of a person 
+var lastName = 'Jain' // last name of a person 
+var country = 'India' // capital city 
+var age = 22 // age in years 
+let isMarried = false
+
+//variables to store your first name, last name, marital status, country and age in a single line
 console.log(firstName, lastName, country, age, isMarried)
+</Script>
+-->
 
+
+
+   <!-- Q.10 Declare two variables myAge and yourAge and assign them initial values and log to the browser console. -->
+<!--
+<Script>
+ let myAge = 22 
+ let yourAge = 25
+
+ console.log(myAge, yourAge)
 </Script>
 -->
 
